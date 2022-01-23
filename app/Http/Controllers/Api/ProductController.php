@@ -29,7 +29,6 @@ class ProductController extends Controller
             $products = $products->where('name','LIKE','%'.$search.'%');
             $products = $products->orwhere('price','LIKE','%'.$search.'%');
             $products = $products->orwhere('qty','LIKE','%'.$search.'%');
-            $products = $products->orwhere('status','LIKE','%'.$search.'%');
         }
 
         $total = $products->count();
