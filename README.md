@@ -3,8 +3,8 @@
 ## Installation
 
 ```sh
-git clone https://github.com/hamzahfauzy/majoo-test
-cd majoo-test
+git clone https://github.com/hamzahfauzy/majoo_test
+cd majoo_test
 composer install
 cp .env.example .env
 php artisan key:generate
